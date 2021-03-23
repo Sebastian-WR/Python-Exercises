@@ -1,0 +1,13 @@
+certifi==2020.12.5
+chardet==4.0.0
+idna==2.10
+requests==2.25.1
+urllib3==1.26.3
+
+# pip list sees whats in it
+# pip install requests installerer requests modul
+# touch requirements.txt laver text fil
+# pip freeze > requirements.txt kopiere det listede i pip og skriver i filen
+# Den fil kan så ligge i directory og når man starter docker run -it --rm -v ${PWD}:/docs python bash så tagerr den det med over 
+# pip install -r requirements.txt læser og installere det som er i den istedet for de enkelte moduler
+
